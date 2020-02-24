@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # VCR Legion Core 2.0
 VS 2017 x64
 boost 1.64
@@ -120,3 +121,5 @@ Powerful Anticheat (detect LUA, MPQ and etc).
 Designed GEODATA:
 - blink/charge use mmaps calculations (Say no to getting stuck on the slopes or falling under textures)
 - accurate movement points calculations
+=======
+# uwow
