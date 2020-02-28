@@ -1,0 +1,1 @@
+update areatrigger_actions set targetflags = targetflags | 0x2000000 where entry = 4756 and targetflags = 2;

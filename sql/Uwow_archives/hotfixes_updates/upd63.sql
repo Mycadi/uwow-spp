@@ -1,0 +1,6 @@
+CREATE TABLE `item_level_selector`(  
+  `ID` INT(10) NOT NULL DEFAULT 0,
+  `ItemLevel` SMALLINT(5) NOT NULL DEFAULT 0,
+  `VerifiedBuild` SMALLINT(5) DEFAULT 0 NOT NULL,
+  PRIMARY KEY (`ID`)
+);

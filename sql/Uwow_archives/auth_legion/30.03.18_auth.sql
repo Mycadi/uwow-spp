@@ -1,0 +1,2 @@
+ALTER TABLE `battlenet_accounts` CHANGE `sha_pass_hash` `sha_pass_hash` VARCHAR(512) CHARSET utf8 COLLATE utf8_general_ci DEFAULT '' NOT NULL, CHANGE `v` `v` VARCHAR(512) CHARSET utf8 COLLATE utf8_general_ci DEFAULT '' NOT NULL, CHANGE `s` `s` VARCHAR(512) CHARSET utf8 COLLATE utf8_general_ci DEFAULT '' NOT NULL, CHANGE `sessionKey` `sessionKey` VARCHAR(512) CHARSET utf8 COLLATE utf8_general_ci DEFAULT '' NOT NULL;
+ALTER TABLE `account` CHANGE `sessionkey` `sessionkey` VARCHAR(512) CHARSET utf8 COLLATE utf8_general_ci DEFAULT '' NOT NULL;

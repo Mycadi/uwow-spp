@@ -1,0 +1,3 @@
+INSERT INTO `spell` (`ID`, `Name`) VALUES ('158950', 'Level of Craven');
+INSERT INTO `spell_effect` (`ID`, `Effect`, `EffectBasePoints`, `EffectAura`, `ImplicitTarget1`, `SpellID`) VALUES ('12', '6', '1', '4', '1', '158950');
+INSERT INTO `spell_misc` (`ID`, `CastingTimeIndex`, `DurationIndex`, `SpellIconFileDataID`, `ActiveIconFileDataID`, `Attributes1`, `Attributes2`, `Attributes3`, `Attributes4`, `Attributes5`, `Attributes6`, `SpellID`) VALUES ('230003', '1', '42', '136243', '0', '763363584', '168', '540677', '269484032', '4', '393224', '158950');

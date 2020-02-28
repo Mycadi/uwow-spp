@@ -1,0 +1,1 @@
+ALTER TABLE `guild` ADD COLUMN `flags` INT(11) UNSIGNED DEFAULT 0 NOT NULL AFTER `leaderguid`;

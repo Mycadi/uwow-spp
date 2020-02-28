@@ -1,0 +1,1 @@
+update spell_script_names set spell_id = 227977 where spell_id = 227966;

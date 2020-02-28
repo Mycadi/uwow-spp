@@ -1,0 +1,3 @@
+/* SYNC TABLE : `version` */
+delete from `version` where `core_version` = 'UWOWCore rev. 2015-07-19 11:24:36 +0300 (75b91aef253c+) (Win64, Release)' and `core_revision` = '75b91aef253c+' and `db_version` = 'UWOWDB v.1' and `cache_id` = '6' and `hotfix_cache_id` = '0';
+insert into `version` values('SPP SINGLECORE LEGION V2 rev. 2019-11-19 11:24:36 +0300 (75b91aef253c+) (Win64, Release)' , '75b91aef253c+' , 'SPP VCR V2' , '6' , '0');

@@ -1,0 +1,2 @@
+INSERT INTO `spell_misc` (`ID`, `Attributes1`, `Attributes2`, `Attributes9`, `Attributes14`, `CastingTimeIndex`, `DurationIndex`, `RangeIndex`, `SchoolMask`, `IconFileDataID`) VALUES ('186822', '327680', '1024', '12288', '1', '1', '1', '1', '64', '132171');
+INSERT INTO `hotfix_data` (`Id`, `TableHash`, `RecordId`) VALUES ('2004', '3322146344', '186822');

@@ -1,0 +1,1 @@
+INSERT INTO `warden_checks`(`id`,`os`,`type`,`data`,`str`,`address`,`length`,`result`,`banreason`,`action`,`bantime`,`comment`) VALUES ( NULL,'Win','0','','','0','0','','Unknown rotation bot','2','1209600',''); 

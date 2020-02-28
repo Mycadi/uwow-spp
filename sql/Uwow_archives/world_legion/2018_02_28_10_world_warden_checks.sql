@@ -1,0 +1,1 @@
+INSERT INTO `warden_checks` (`id`,`os`,`type`,`data`,`str`,`address`,`length`,`result`,`banreason`,`action`,`bantime`,`comment`) VALUES ( '100','Win','0','','','0','0','','Unknown program','2','2592000','');

@@ -1,0 +1,1 @@
+UPDATE `spell_trigger_delay` SET `spell_id`='6544' WHERE (`spell_id`='178367') AND (`spell_trigger`='52174') AND (`target`='0');

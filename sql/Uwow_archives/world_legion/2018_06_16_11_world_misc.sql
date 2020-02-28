@@ -1,0 +1,2 @@
+UPDATE `spell_linked_spell` SET `duration`='0', `actiontype`='0', `comment`='Open Wounds' WHERE (`spell_trigger`='1079') AND (`spell_effect`='210670') AND (`type`='0') AND (`caster`='0') AND (`target`='0') AND (`hastalent`='210666') AND (`effectMask`='0') AND (`actiontype`='21');
+INSERT INTO `spell_linked_spell` (`spell_trigger`, `spell_effect`, `param`, `comment`) VALUES ('1079', '-210670', '1', 'Open Wounds (Remove)');

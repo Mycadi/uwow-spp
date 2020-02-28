@@ -1,0 +1,1 @@
+ALTER TABLE  `character_garrison_followers` DROP INDEX `idx_guid_id`, ADD INDEX `idx_guid_id` (`guid`) USING BTREE;

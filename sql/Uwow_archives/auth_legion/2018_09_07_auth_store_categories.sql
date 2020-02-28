@@ -1,0 +1,2 @@
+ALTER TABLE `store_categories`
+ ADD COLUMN `faction` TINYINT(1) UNSIGNED NOT NULL DEFAULT '0' AFTER `sort`;

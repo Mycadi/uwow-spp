@@ -1,0 +1,1 @@
+DELETE FROM `spell_trigger` WHERE (`spell_id`='202090') AND (`spell_trigger`='228649') AND (`option`='20') AND (`bp0`='1') AND (`effectmask`='1') AND (`aura`='0') AND (`check_spell_id`='0') AND (`addptype`='-1') AND (`CreatureType`='0');

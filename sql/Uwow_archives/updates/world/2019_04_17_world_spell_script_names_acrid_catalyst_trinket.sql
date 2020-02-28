@@ -1,0 +1,2 @@
+DELETE FROM `world`.`spell_script_names` WHERE `spell_id`='253259' and`ScriptName`='spell_item_acrid_catalyst_injector';
+INSERT INTO `world`.`spell_script_names` (`spell_id`, `ScriptName`) VALUES ('253259', 'spell_item_acrid_catalyst_injector');

@@ -1,0 +1,2 @@
+INSERT INTO `world`.`spell_script_names` (`spell_id`, `ScriptName`) VALUES ('19574', 'spell_hun_bestial_wrath');
+INSERT INTO `world`.`spell_script_names` (`spell_id`, `ScriptName`) VALUES ('221771', 'spell_monk_fixate');

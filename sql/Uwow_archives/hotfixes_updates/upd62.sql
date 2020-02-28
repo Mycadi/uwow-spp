@@ -1,0 +1,23 @@
+ALTER TABLE `quest_v2_cli_task`   
+  CHANGE `SkillRank` `SkillValue` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL;
+ALTER TABLE `garr_ability_effect`   
+  CHANGE `unk` `classSpec` INT(10) UNSIGNED DEFAULT 0 NOT NULL;
+ALTER TABLE `quest_v2_cli_task`   
+  CHANGE `unk11` `SkillValue` SMALLINT(5) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `unk12` `WorldStateExpressionID` SMALLINT(5) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `SkillValue` `unk13` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `levelUnk` `unk16` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `unk17` `maxLevel` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `level` `unk19` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL,
+  CHANGE `unk20` `minLevel` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL;
+CREATE TABLE `world_state_expression`(  
+  `ID` INT(10) NOT NULL DEFAULT 0,
+  `Expression` TEXT,
+  PRIMARY KEY (`ID`)
+) ENGINE=MYISAM CHARSET=utf8 COLLATE=utf8_general_ci;
+CREATE TABLE `world_state_expression_locale`(  
+  `ID` INT(10) NOT NULL DEFAULT 0,
+  `Expression` TEXT NOT NULL,
+  `VerifiedBuild` SMALLINT(6) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`ID`)
+);

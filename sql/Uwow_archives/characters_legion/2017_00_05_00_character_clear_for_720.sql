@@ -1,0 +1,17 @@
+TRUNCATE `challenge_oplote_loot`;
+TRUNCATE `character_brackets_info`;
+TRUNCATE `character_aura`;
+TRUNCATE `character_aura_effect`;
+TRUNCATE `character_instance`;
+TRUNCATE `character_honor`;
+TRUNCATE `character_pvp_talent`;
+TRUNCATE `character_spell_cooldown`;
+TRUNCATE `character_talent`;
+TRUNCATE `group_instance`;
+TRUNCATE `group_member`;
+TRUNCATE `groups`;
+TRUNCATE `pet_aura`;
+TRUNCATE `pet_aura_effect`;
+TRUNCATE `pet_spell_cooldown`;
+TRUNCATE `world_quest`;
+TRUNCATE `character_queststatus_world`;

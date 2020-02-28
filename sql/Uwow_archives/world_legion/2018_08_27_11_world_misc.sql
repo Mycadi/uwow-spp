@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('210126', 'spell_mage_arcane_familiar');

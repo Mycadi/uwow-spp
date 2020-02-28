@@ -1,0 +1,3 @@
+ALTER TABLE `character_battleground_random`   
+  ADD COLUMN `arena2v2` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL AFTER `arena`,
+  ADD COLUMN `arena3v3` TINYINT(3) UNSIGNED DEFAULT 0 NOT NULL AFTER `arena2v2`;

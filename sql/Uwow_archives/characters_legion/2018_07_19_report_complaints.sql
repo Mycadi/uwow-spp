@@ -1,0 +1,6 @@
+TRUNCATE report_complaints;
+ALTER TABLE `report_complaints`   
+  ADD COLUMN `ReportPlayer` BIGINT(20) UNSIGNED DEFAULT 0 NOT NULL AFTER `ID`,
+  ADD COLUMN `ReportAccount` INT(10) UNSIGNED DEFAULT 0 NOT NULL AFTER `ReportPlayer`,
+  ADD COLUMN `ReportTime` INT(10) UNSIGNED DEFAULT 0 NOT NULL AFTER `ReportAccount`,
+  CHANGE `PlayerGuid` `SpammerGuid` BIGINT(20) UNSIGNED NOT NULL;

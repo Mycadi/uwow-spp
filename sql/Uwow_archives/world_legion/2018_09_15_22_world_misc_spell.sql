@@ -1,0 +1,4 @@
+DELETE FROM `spell_trigger` WHERE (`spell_id`='117907') AND (`spell_trigger`='191894') AND (`option`='20') AND (`bp0`='0') AND (`effectmask`='1') AND (`aura`='191840') AND (`check_spell_id`='0') AND (`addptype`='-1') AND (`CreatureType`='0');
+DELETE FROM `spell_trigger` WHERE (`spell_id`='117907') AND (`spell_trigger`='191894') AND (`option`='20') AND (`bp0`='0') AND (`effectmask`='1') AND (`aura`='0') AND (`check_spell_id`='0') AND (`addptype`='-1') AND (`CreatureType`='0');
+
+DELETE FROM `spell_linked_spell` WHERE (`spell_trigger`='17') AND (`spell_effect`='197548') AND (`type`='6') AND (`caster`='3') AND (`target`='5') AND (`hastalent`='197535') AND (`effectMask`='0') AND (`actiontype`='0');

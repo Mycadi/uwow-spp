@@ -1,0 +1,2 @@
+UPDATE `item_sparse` SET `StatPercentEditor1`='5259', `StatPercentEditor2`='7889', `StatPercentEditor3`='3559' WHERE (`ID`='134553');
+UPDATE `item_sparse` SET `StatPercentEditor4`='3418' WHERE (`ID`='134553');

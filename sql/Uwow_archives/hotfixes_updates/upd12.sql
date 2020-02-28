@@ -1,0 +1,13 @@
+ALTER TABLE `area_table`   
+  CHANGE `UWZoneMusic` `UWIntroMusic` SMALLINT(5) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `WorldPvPID` `UWZoneMusic` SMALLINT(5) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `PvPCombastWorldStateID` `UWAmbience` SMALLINT(5) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `SoundProviderPref` `WorldPvPID` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `SoundProviderPrefUnderwater` `WindSettingsID` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `ExplorationLevel` `SoundProviderPref` TINYINT(4) DEFAULT 0  NOT NULL,
+  CHANGE `FactionGroupMask` `SoundProviderPrefUnderwater` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `MountFlags` `ExplorationLevel` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `UWIntroMusic` `FactionGroupMask` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `WildBattlePetLevelMin` `MountFlags` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `WildBattlePetLevelMax` `WildBattlePetLevelMin` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `WindSettingsID` `WildBattlePetLevelMax` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL;

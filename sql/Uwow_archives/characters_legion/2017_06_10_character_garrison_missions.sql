@@ -1,0 +1,1 @@
+ALTER TABLE `character_garrison_missions` ADD `chance` SMALLINT(10) UNSIGNED NOT NULL DEFAULT '0' AFTER `missionState`;

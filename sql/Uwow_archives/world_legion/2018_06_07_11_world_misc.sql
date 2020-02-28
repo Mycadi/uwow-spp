@@ -1,0 +1,1 @@
+UPDATE `spell_aura_dummy` SET `custombp`='30000' WHERE (`spellId`='206491') AND (`spellDummyId`='-134735') AND (`option`='12') AND (`effectDummy`='0') AND (`effectmask`='1');

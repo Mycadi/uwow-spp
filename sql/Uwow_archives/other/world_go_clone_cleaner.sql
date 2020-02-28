@@ -1,0 +1,1 @@
+ALTER IGNORE TABLE gameobject ADD UNIQUE INDEX(id, position_x, position_y, position_z, spawnMask, phaseMask);

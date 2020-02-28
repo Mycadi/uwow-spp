@@ -1,0 +1,19 @@
+ALTER TABLE `spell_totems`   
+  CHANGE `TotemCategory1` `Totem1` INT(10) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `TotemCategory2` `Totem2` INT(10) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `Totem1` `TotemCategory1` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `Totem2` `TotemCategory2` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL;
+
+ALTER TABLE `research_project`   
+  CHANGE `SpellID` `SpellID` INT(10) UNSIGNED DEFAULT 0  NOT NULL  AFTER `Description`,
+  CHANGE `IconName` `IconName` TEXT CHARSET utf8 COLLATE utf8_general_ci NULL  AFTER `SpellID`,
+  CHANGE `BranchID` `BranchID` SMALLINT(6) UNSIGNED DEFAULT 0  NOT NULL  AFTER `IconName`,
+  CHANGE `Rare` `Rare` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `Complexity` `Complexity` TINYINT(3) DEFAULT 0  NOT NULL,
+  CHANGE `RequiredCurrencyAmount` `RequiredCurrencyAmount` TINYINT(3) DEFAULT 0  NOT NULL;
+
+ALTER TABLE `research_site`   
+  CHANGE `POIid` `POIid` INT(10) UNSIGNED DEFAULT 0  NOT NULL  AFTER `ID`,
+  CHANGE `areaName` `areaName` TEXT CHARSET utf8 COLLATE utf8_general_ci NULL  AFTER `POIid`,
+  CHANGE `MapID` `MapID` SMALLINT(6) UNSIGNED DEFAULT 0  NOT NULL,
+  CHANGE `flags` `flags` TINYINT(3) UNSIGNED DEFAULT 0  NOT NULL;

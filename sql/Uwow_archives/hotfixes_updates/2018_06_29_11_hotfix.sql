@@ -1,0 +1,1 @@
+INSERT INTO `item_effect` (`ID`, `SpellID`, `CoolDownMSec`, `LegacySlotIndex`, `TriggerType`, `ItemID`) VALUES ('18216', '148551', '-1', '1', '6', '104166');

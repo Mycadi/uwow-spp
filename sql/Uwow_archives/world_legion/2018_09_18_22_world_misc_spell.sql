@@ -1,0 +1,1 @@
+INSERT INTO `spell_script_names` (`spell_id`, `ScriptName`) VALUES ('250879', 'spell_gen_netherlight_fortification');

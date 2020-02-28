@@ -1,0 +1,1 @@
+update areatrigger_actions set id = 100 where entry in (5516,7519,8735);

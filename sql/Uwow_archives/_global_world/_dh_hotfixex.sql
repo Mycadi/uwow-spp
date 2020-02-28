@@ -1,0 +1,3 @@
+-- Q: 39663
+REPLACE INTO `taxi_nodes` (`ID`, `PosX`, `PosY`, `PosZ`, `Name`, `MountCreatureID1`, `MountCreatureID2`, `MapOffset1`, `MapOffset2`, `MapID`, `ConditionID`, `LearnableIndex`, `Flags`, `VerifiedBuild`) VALUES ('1733', '1452', '1688', '47.3', 'Quest Path 5286: 7.0 DH-Mardum - Illidari Foothold -> The Fel Hammer (ELM)', '99257', '99257', '0', '0', '1481', '0', '0', '0', '0');
+REPLACE INTO `taxi_path` (`ID`, `From`, `To`, `Cost`, `VerifiedBuild`) VALUES ('5286', '1733', '1732', '0', '0');

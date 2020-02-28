@@ -1,0 +1,1 @@
+UPDATE `world`.`pet_stats` SET `type` = '1' WHERE (`entry` = '61029');

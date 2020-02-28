@@ -1,0 +1,1 @@
+UPDATE `character_cheat_common` SET `cheatLootCount` = '0';

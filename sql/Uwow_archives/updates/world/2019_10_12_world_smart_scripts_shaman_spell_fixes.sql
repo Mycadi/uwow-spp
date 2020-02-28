@@ -1,0 +1,2 @@
+UPDATE `world`.`spell_aura_dummy` SET `removeAura` = '252141' WHERE (`spellId` = '77478') and (`spellDummyId` = '252141') and (`effectDummy` = '1') and (`effectmask` = '1') and (`option` = '9');
+UPDATE `world`.`spell_aura_dummy` SET `removeAura` = '208723' WHERE (`spellId` = '77478') and (`spellDummyId` = '208723') and (`effectDummy` = '1') and (`effectmask` = '1') and (`option` = '9');

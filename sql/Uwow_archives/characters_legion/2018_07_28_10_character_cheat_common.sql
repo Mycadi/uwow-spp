@@ -1,0 +1,7 @@
+CREATE TABLE `character_cheat_common`( 
+`guid` INT(11) UNSIGNED NOT NULL DEFAULT 0, 
+`transmCheatUseCount` INT(11) UNSIGNED NOT NULL DEFAULT 0, 
+`transmCooldownEnd` INT(11) UNSIGNED NOT NULL DEFAULT 0,
+`cheatLootCount` INT(11) UNSIGNED NOT NULL DEFAULT 0, 
+PRIMARY KEY (`guid`) ) 
+ENGINE=INNODB CHARSET=utf8 COLLATE=utf8_general_ci;

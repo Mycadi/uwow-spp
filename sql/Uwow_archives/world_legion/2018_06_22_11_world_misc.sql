@@ -1,0 +1,1 @@
+DELETE FROM `spell_aura_dummy` WHERE (`spellId`='187837') AND (`spellDummyId`='210727') AND (`option`='9') AND (`effectDummy`='1') AND (`effectmask`='7');

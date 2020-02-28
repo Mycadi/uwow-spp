@@ -1,0 +1,15 @@
+UPDATE creature_loot_template SET `ChanceOrQuestChance`='-35' WHERE item in (129972,130129,129980,127044,128751,129204,129105,137221,133782) AND NOT entry = 106375;
+UPDATE creature_loot_template SET `ChanceOrQuestChance`='-50' WHERE item in (127038,127039,123971,123972,129169);
+UPDATE creature_loot_template SET `ChanceOrQuestChance`='-70' WHERE item in (127046,127047,132867);
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-100' WHERE item in (127281,123976,124004,137211,136624,136623,136622);
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-100' WHERE (`entry`='105216') AND (`item`='129971');
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='-100' WHERE (`entry`='99402') AND (`item`='129974');
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='100' WHERE (`entry`='97756') AND (`item`='129292');
+UPDATE `creature_loot_template` SET `ChanceOrQuestChance`='100' WHERE (`entry`='104215') AND (`item`='133806');
+UPDATE skinning_loot_template SET `ChanceOrQuestChance`='-100' WHERE item in (129972);
+UPDATE skinning_loot_template SET `ChanceOrQuestChance`='-50' WHERE item in (130100);
+UPDATE `gameobject_loot_template` SET `ChanceOrQuestChance`='-100' WHERE (`entry`='245847') AND (`item`='129293');
+UPDATE `gameobject_loot_template` SET `ChanceOrQuestChance`='-100' WHERE (`entry`='249024') AND (`item`='127874');
+UPDATE `gameobject_loot_template` SET `ChanceOrQuestChance`='100' WHERE (`entry`='249462') AND (`item`='136819');
+UPDATE `gameobject_loot_template` SET `ChanceOrQuestChance`='-100' WHERE (`entry`='246745') AND (`item`='133798');
+DELETE FROM creature_loot_template WHERE item in (130100,130070);

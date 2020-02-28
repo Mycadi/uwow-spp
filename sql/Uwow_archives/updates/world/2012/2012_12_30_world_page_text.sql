@@ -1,0 +1,1 @@
+ALTER TABLE `locales_page_text` ADD COLUMN `Text_loc9` LONGTEXT NULL AFTER `Text_loc8`, ADD COLUMN `Text_loc10` LONGTEXT NULL AFTER `Text_loc9`, CHANGE `Text_loc8` `Text_loc8` LONGTEXT NULL ; 
